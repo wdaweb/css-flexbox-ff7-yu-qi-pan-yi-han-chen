@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: url(./img/bg-full.jpg);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .box {
+      display: flex;
+      width: 1500px;
+      height: 700px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: linear-gradient(#aaa 50%, #000 50%);
+    }
+
+    .left {
+      width: 750px;
+      height: 700px;
+      justify-content: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/main.jpg);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left img {
+      width: 200px;
+    }
+
+    .boy {
+      width: 750px;
+      height: 350px;
+      background: #aaa;
+      align-self: start;
+      background: url(./img/cloud.png)no-repeat right bottom/contain;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      padding-left: 20px;
+    }
+
+    .girl {
+      width: 750px;
+      height: 350px;
+      background: #aaa;
+      align-self: start;
+      background: url(./img/tifa.png)no-repeat left bottom/contain;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .girl * {
+      margin-left: 280px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="left">
+      <img src="./img/ps4-ff7.png">
+      <h1 style="color: #fff">AVAILABLE NOW</h1>
+      <p style="color: #fff;text-align: center;width: 400px;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        quibusdam aut iusto alias, distinctio laudantium ab error saepe
+        asperiores sequi animi eligendi officiis at eum
+        dolor, totam ex est. Aperiam?</p>
+    </div>
+    <div class="boy">
+      <h1>Cloud</h1>
+      <p style="width: 300px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur labore cum, cupiditate a modi fuga facere
+        est expedita debitis neque dolor culpa odit facilis distinctio, tempora dolores obcaecati quam blanditiis.
+      </p>
+    </div>
+    <div class="girl">
+      <h1 style="color: #fff;">Tifa</h1>
+      <p style="width: 300px;color: #fff;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur labore cum, cupiditate a modi fuga facere
+        est
+        expedita debitis neque dolor culpa odit facilis distinctio, tempora dolores obcaecati quam blanditiis.
+      </p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
